@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111111;
+}
+a{
+    text-decoration: none;
+}
+.text-header{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-weight: bolder;
+    padding: 10px;
+}
+.container{
+    height: 100%;
+    max-width: 80%;
+    margin: auto;
+}
+.container-2{
+    background-color: #B88610;
+    margin-top: 5px;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.nav-links{
+    padding: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+a.nav-links{
+    color: white;
+}
+.container-3 {
+    background-color: #333333;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.fa-bars {
+    color: white;
+    margin-top: 5px;
+}
+.search{
+    height: 100%;
+}
+.news-column{
+    margin-top: 10px;
+}
+.news-headlines {
+    border-bottom: 7px solid grey;
+}
+h4{
+    font-size: 150%;
+    color: whitesmoke;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+img{
+    width: 450px;
+    height: 400px;
+}
+.post-details{
+    color: grey;
+}
+.fa-thumbs-up, .fa-comment{
+    color: grey;
+    margin-left: 5px;
+}
+.fa-times {
+    float: right;
+    padding: 5px;
+    color: grey;
+}
+.fa-times:active{
+    color: black;
+}
+.jumbo-text{
+    font-weight: bolder;
+    background-color: #343A40;
+    color: white;
+    border-radius: 5px;
+    border-left: 10px yellow solid;
+}
+.flame{
+    color: orangered;
+}
+.jumbotron1{
+    background-image: url("https://images.unsplash.com/photo-1542202229-7d93c33f5d07?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvcmVzdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+.jumbotron2{
+    background-image: url("https://images.unsplash.com/photo-1551135049-8a33b5883817?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG9mZmljZSUyMHdvcmtlcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+.jumbo-deets{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+}
+.jumbo-deets2 {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #343A40;
+    color: #B2B3B3;
+    font-size: xx-large;
+}
+.btn{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: block;
+    padding: 0;
+    background-color: #4FA746;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #3d9633;
+    color: white;
+}
+.btn2{
+    text-align: center;
+    color: #B2B3B3;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: block;
+    padding: 0;
+    background-color: #2E5CB7;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: #2e5cb7f0;
+    color: #B2B3B3;
+}
